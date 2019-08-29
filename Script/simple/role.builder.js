@@ -2,6 +2,7 @@ var roleUpgrader = require('role.upgrader');
 
 module.exports = {
     // a function to run the logic for this role
+    // 建造建筑物 没有的时候变为upgrader
     /** @param {Creep} creep */
     run: function (creep) {
         // if target is defined and creep is not in target room

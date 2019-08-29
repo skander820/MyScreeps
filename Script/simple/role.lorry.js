@@ -1,5 +1,6 @@
 module.exports = {
     // a function to run the logic for this role
+    // 从container /storage 取能量 送往 spawn extension
     /** @param {Creep} creep */
     run: function(creep) {
         // if creep is bringing energy to a structure but has no energy left

@@ -1,5 +1,6 @@
 module.exports = {
     // a function to run the logic for this role
+    // 站在container的位置采矿
     run: function (creep) {
         // get source
         let source = Game.getObjectById(creep.memory.sourceId);

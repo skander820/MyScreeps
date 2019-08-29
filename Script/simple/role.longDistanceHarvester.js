@@ -1,5 +1,6 @@
 module.exports = {
     // a function to run the logic for this role
+    // 跨境能量输送
     /** @param {Creep} creep */
     run: function(creep) {
         // if creep is bringing energy to a structure but has no energy left
