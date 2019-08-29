@@ -1,17 +1,13 @@
-/*
- * Module code goes here. Use 'module.exports' to export things:
- * module.exports.thing = 'a thing';
- *
- * You can import it from another modules like this:
- * var mod = require('role.builder');
- * mod.thing == 'a thing'; // true
- */
-
 var roleBuilder = {
 
-    /** @param {Creep} creep **/
+    /**
+     * 当有construction_site时从最近container中取energy建造
+     * 没有时视为upgrader
+     * 
+     *  @param {Creep} creep **/
     run: function(creep) {
-
+        
+        /*
 	    if(creep.memory.building && creep.carry.energy == 0) {
             creep.memory.building = false;
             creep.say('🔄 harvest');
@@ -49,7 +45,7 @@ var roleBuilder = {
                 }
             }
         }
-	    }
+	    }*/
 	}
 };
 
